@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.bg-success {
+  background-color: #71b100 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .top-bar.bg-success {
+    background-color: transparent !important;
+  }
+
+  #header {
+    position: relative;
+  }
+
+  #header .top-bar {
+    position: absolute;
+    z-index: 1000;
+  }
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.navbar-brand strong {
+  font-weight: 900;
+}
+
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  color: #fff !important;
+  font-size: 0.8rem;
+}
+
+/* Dropdown */
+
+.dropdown-menu {
+  background-color: #003eb191;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #09b5e0;
+}
+
+.m1 {
+  margin-top: -300px;
+  
+}
+.m2 {
+  margin-top: -100px;
+}
+
+.colorrs {
+  background-color: black;
+}
+.carousel {
+  background-color: rgba(0, 0, 0, 0.171);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 8px;
+  
+}
+
+.imgs {
+  right: 40px;
+}
+
+.watcher {
+  margin-top: 100px;
+}
+#id{
+  background-image: url(../img/computer1.jpg);
+  background-size: cover;
+  min-height: 50rem;
+}
+.black-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(9, 110, 126, 0.534);
+background: linear-gradient(90deg, rgba(9, 110, 126, 0.719) 0%, rgba(98, 227, 227, 0.603) 0%, rgba(105, 135, 255, 0.719) 38%, rgba(240, 24, 42, 0.747) 100%);
+
+}
+.padding {
+  margin-left: 150px;
+}
+
+
+
+.images123 .container {
+  position: relative;
+}
+
+.images123 .overlay {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 0.6) 0%,
+    rgba(84, 191, 134, 0.7) 49%,
+    rgba(252, 70, 107, 0.8) 100%
+  );
+  height: 370px;
+  width: 740px;
+}
+
+.images123 .caption {
+  position: absolute;
+  top: 20%;
+  right: 14%;
+}
+
+.images123 .caption h2 {
+  font-weight: 900;
+  position: relative;
+  width: 60%;
+  font-size: 3rem;
+}
+.images123 .caption h2:after {
+  display: block;
+  content: '';
+  height: 4px;
+  width: 30%;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 25px;
+  bottom: -5px;
+
+}
+
+
+.myname {
+  margin-top: 150px;
+}
+
+
+
+.heading-title {
+    margin-top: 150px;
+}
+
+.heading-t{
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-warning {
+  background-color: #09c7e0 !important;
+  color: #fff !important;
+  border-color: #09c7e0;
+  padding: 10px 70px;
+  border-radius: 45px;
+}
+
+.btn-warning:hover {
+  background-color: rgb(116, 224, 252) !important;
+  color: #000 !important;
+  
+  border-color: #09b5e0;
+  box-shadow: rgba(0, 0, 0, 0.021);
+}
+
+/* feature */
+
+.features{
+  opacity: 1;
+  padding-top: 30px;
+  transition: all .3s ease;
+}
+
+.features h3::before{
+  content: '';
+  display: block;
+  margin: 5px auto 20px auto;
+  height: 2px;
+  width: 60px;
+  background-color: rgb(116, 224, 252);
+}
+
+.features:hover p{
+  display: block;
+  opacity: 1;
+  padding-top: 10px;
+  color: #999;
+}
+
+#About {
+  background-image: url(../img/pexels-xxss-is-back-777001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#About .row {
+  height: 25rem;
+}
+
+#blog h3::after {
+  content: '';
+  display: block;
+  width: 8rem;
+  height: 0.2rem;
+  background-color: #71b100;
+  margin-top: 0.5rem;
+}
+
+#testimonial .container-fluid{
+  padding: 100px;
+  background-color: #c0c0ba;
+}
+
+.carousel-inner .carousel-item .img-box {
+  width: 135px;
+  height: 135px;
+}
+
+.carousel-control-prev{
+  left: -100px;
+}
+
+.carousel-control-next{
+  right: -100px;
+}
+.carousel-indicators{
+  top: 330px;
+}
+
+.bg-gery {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.para {
+  font-size: 50px;
+}
+
+#line h1::after {
+  content: '';
+  display: block;
+  width: 4rem;
+  height: 0.2rem;
+  background-color: #0096b1;
+  margin-top: 1rem;
+  margin-left: 540px;
+}
+.text1 {
+  margin-top: -500px;
+  font-size: 50px;
+}
+
+.btn-default {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: rgba(0, 238, 255, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(81, 212, 230, 0.75);
+  border-radius: 40px;
+  background: White;
+  transition: all 0.3s ease 0s;
+}
+.btn-default:hover {
+  color: #FFF;
+  background: rgba(0, 238, 255, 0.75);
+  border: 2px solid rgba(81, 212, 230, 0.75);
+}
+
+.bg-default {
+  background-color: rgba(0, 0, 0, 0.055);
+}
+
+.text-blue {
+  color: #09b5e0;
+}
+
+.card {
+  background-color: white;
+
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.055)
+}
+
+.btn-defaul {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(81, 212, 230, 0.75);
+  border-radius: 40px;
+  background: rgba(0, 238, 255, 0.75);
+  transition: all 0.3s ease 0s;
+}
+.btn-defaul:hover {
+  color: #000000;
+  background: rgba(0, 238, 255, 0.377);
+  border: 2px solid rgba(0, 225, 255, 0.75);
+}
+
+.bg-default {
+  background-color: rgba(0, 0, 0, 0.055);
+}
+
+#cars {
+  margin-bottom: 1000px;
+}
+
+.text12345 h2::after {
+  content: '';
+  display: block;
+  width: 8rem;
+  height: 0.2rem;
+  background-color: #0ec3fa;
+  margin-top: 0.5rem;
+  margin-left: 490px;
+}
+
+.text10 {
+  padding-top: 100px;
+  text-align: center;
+}
+<div class="container-fluid">
+    <div class="map-responsive">
+   <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
